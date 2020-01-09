@@ -1,0 +1,19 @@
+ArrayList: Arraylist is a data structure in java
+ArrayList has no limits
+We can strore any kind of data type elements.
+
+
+int a[] = new int[6];  // normmal array list
+
+ArrayList ar = new ArrayList();  //All the data types elements
+
+ArrayList<String> ar = new ArrayList<String> ();  string data type
+ArrayList<Interger> ar = new ArrayList<Interger> (); integer data type
+
+
+
+=========
+
+Hashmap
+
+

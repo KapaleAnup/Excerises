@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name= "SendMail">
+
+    <test name="SendmailJava">
+
+        <classes>
+            <!--<class name="javaInterviewQuestions.ReverseString"/>-->
+            <class name="JSONFileRead.JsonWriter"/>
+            <class name="JSONFileRead.JsonReader"/>
+        </classes>
+    </test>
+
+</suite>

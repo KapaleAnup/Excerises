@@ -1,0 +1,12 @@
+Difference :
+
+1) LinkedList element insertion is faster compared to ArrayList.
+
+2) LinkedList element deletion is faster compared to ArrayList.
+
+3) ArrayList search operation is pretty fast compared to the LinkedList Search Operation.
+    LinkedList doesn't provide random or index based access and we need to iterate over linked list to
+    retrieve any element.
+
+4) LinkedList has more memory overhead than ArrayList because in ArrayList each index only holds actual
+   object but in case of linkedlist each nodes holds both data and address of next and previous node (Dubly linkedlist).
