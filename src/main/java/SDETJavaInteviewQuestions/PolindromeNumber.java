@@ -6,11 +6,11 @@ public class PolindromeNumber {
 
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
+         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter the number: ");
 
-        int num = scanner.nextInt();
+       int num = scanner.nextInt();
 
         int orgininal_number = num;
 
