@@ -53,7 +53,7 @@ public class SortArrayList {
 
         //sorting in desending order
 
-      // Collections.sort(numbers,Collections.<Integer>reverseOrder());  // use this method for assending order
+      // Collections.sort(numbers,Collections.<IntegerExampleTest>reverseOrder());  // use this method for assending order
      //   Collections.sort(numbers); // use this for sorting the numbers
         Collections.reverse(numbers); // use reverse() to reverse the listed numbers.
 

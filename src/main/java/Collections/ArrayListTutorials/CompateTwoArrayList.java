@@ -39,7 +39,7 @@ It returns true if the list contains the Object o else it returns false.
             System.out.println(al3);
         }
 
-        //Storing the comparison output in ArrayList<Integer>
+        //Storing the comparison output in ArrayList<IntegerExampleTest>
 
         ArrayList<Integer> al4 = new ArrayList<Integer>();
 

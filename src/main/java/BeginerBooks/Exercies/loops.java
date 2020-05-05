@@ -1,4 +1,4 @@
-package BeginerBooks;
+package BeginerBooks.Exercies;
 
 public class loops {
 

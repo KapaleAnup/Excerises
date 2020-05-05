@@ -7,7 +7,7 @@ public class ArraysAsList {
 
     public static void main(String[] args) {
 
-  /*      ArrayList<String> names  = new ArrayList<String>( Arrays.asList("Anup","Amey","Dipesh"));
+  /*      ArrayList<String> names  = new ArrayList<String>( ArraysTest.asList("Anup","Amey","Dipesh"));
 
 
         System.out.println("Names of users is : " + names);

@@ -18,18 +18,23 @@ public class StringsSesions {
 
         String str = "Selenium";
 
-        String add = str.concat("  Testing");
+        String add = str.concat(" Testing");
 
         System.out.println(add);
 
     }
 
+    /**
+     * Trim method is used to reduce the space from beginign in the statement.
+     */
+
     @Test
     public void StringsTrim() {
 
-        String str = "Selenium is a best tool to learn automation";
-        String test = "test+autoamtion";
-        System.out.println(test.trim());
+
+        String str = "         Selenium is a best tool to learn automation";
+      //  String test = "test+autoamtion";
+        System.out.println(str.trim());
 
     }
 

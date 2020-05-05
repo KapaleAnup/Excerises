@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Map;
 public class NewspaperExpense {
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
+
         NewspaperExpense npe = new NewspaperExpense();
         Object[][] priceList= {{"TOI", "3", "3", "3", "3", "3","5", "6"},
                 {"Hindu", "2.5", "2.5", "2.5", "2.5", "2.5", "4", "4"},

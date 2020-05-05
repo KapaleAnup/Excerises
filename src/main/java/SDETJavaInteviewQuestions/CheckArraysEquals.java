@@ -10,14 +10,14 @@ public class CheckArraysEquals {
 
         int a2[] = {1, 2, 3, 4, 5};
 
-//      boolean status =  Arrays.equals(a1,a2);
+//      boolean status =  ArraysTest.equals(a1,a2);
 
 //      if (status==true){
-//          System.out.println("Arrays are equal");
+//          System.out.println("ArraysTest are equal");
 //      }
 //      else {
 //
-//          System.out.println("Arrays are not equal");
+//          System.out.println("ArraysTest are not equal");
 
     //}
 
@@ -37,10 +37,10 @@ public class CheckArraysEquals {
             status = false;
         }
         if (status == true){
-            System.out.println("Arrays are equal");
+            System.out.println("ArraysTest are equal");
         }
         else {
-            System.out.println("Arrays are NOT equal");
+            System.out.println("ArraysTest are NOT equal");
         }
     }
 }

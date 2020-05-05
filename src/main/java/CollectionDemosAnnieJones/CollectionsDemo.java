@@ -61,7 +61,9 @@ public class CollectionsDemo {
 
         for (Map.Entry<String, Integer> entry: fruitcalaries.entrySet()
              ) {
-            System.out.println(entry.getValue());
+            System.out.println("values are : "+entry.getValue());
+            System.out.println("keys are : "+entry.getKey());
+            System.out.println("hash codes are : "+entry.hashCode());
         }
     }
 
