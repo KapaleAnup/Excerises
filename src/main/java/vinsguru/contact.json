@@ -1,0 +1,11 @@
+{
+  "name": "{{name}}",
+  "email": "{{email}}",
+  "thumbnail": "",
+  "phone": {
+    "work": "",
+    "mobile": ""
+  },
+  "numbers": "[]",
+  "friends": "[]"
+}

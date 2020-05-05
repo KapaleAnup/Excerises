@@ -74,6 +74,14 @@
                     </execution>
                 </executions>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>8</source>
+                    <target>8</target>
+                </configuration>
+            </plugin>
 
         </plugins>
 
@@ -124,7 +132,7 @@
         <groupId>org.testng</groupId>
         <artifactId>testng</artifactId>
         <version>6.14.2</version>
-        <scope>compile</scope>
+
     </dependency>
     <dependency>
         <groupId>com.relevantcodes</groupId>
@@ -139,6 +147,12 @@
     </dependency>
 
     <dependency>
+        <groupId>org.influxdb</groupId>
+        <artifactId>influxdb-java</artifactId>
+        <version>2.12</version>
+    </dependency>
+
+    <dependency>
         <groupId>com.googlecode.json-simple</groupId>
         <artifactId>json-simple</artifactId>
         <version>1.1.1</version>
@@ -147,6 +161,11 @@
         <groupId>org.mongodb</groupId>
         <artifactId>mongodb-driver</artifactId>
         <version>3.3.0</version>
+    </dependency>
+    <dependency>
+        <groupId>com.fasterxml.jackson.core</groupId>
+        <artifactId>jackson-core</artifactId>
+        <version>2.10.2</version>
     </dependency>
     <dependency>
         <groupId>com.fasterxml.jackson.core</groupId>
@@ -163,5 +182,30 @@
         <artifactId>sentry-android</artifactId>
         <version>1.7.5</version>
     </dependency>
+
+    <dependency>
+        <groupId>com.mashape.unirest</groupId>
+        <artifactId>unirest-java</artifactId>
+        <version>1.4.9</version>
+    </dependency>
+    <dependency>
+        <groupId>org.jtwig</groupId>
+        <artifactId>jtwig-core</artifactId>
+        <version>5.87.0.RELEASE</version>
+    </dependency>
+
+    <dependency>
+        <groupId>io.codearte.jfairy</groupId>
+        <artifactId>jfairy</artifactId>
+        <version>0.5.9</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.json/json -->
+    <dependency>
+        <groupId>org.json</groupId>
+        <artifactId>json</artifactId>
+        <version>20190722</version>
+    </dependency>
+    
+
 </dependencies>
 </project>

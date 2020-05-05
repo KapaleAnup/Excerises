@@ -14,7 +14,7 @@ public class comparatorTest {
 
        InnerClass in = new InnerClass();
 
-     //  Arrays.parallelSort(ar, in);
+     //  ArraysTest.parallelSort(ar, in);
         for (String alphabet:ar){
             System.out.println("Characters are\n"+alphabet);
             //listsort=new ArrayListDemo<String>();

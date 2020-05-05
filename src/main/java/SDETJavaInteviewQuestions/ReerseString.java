@@ -6,14 +6,14 @@ public class ReerseString {
 
         String str = "ABCD , is not java";
         String rev = "";
-//
-//        int length = str.length();
-//
-//        for(int i = length -1;i>=0;i--){
-//
-//            rev = rev + str.charAt(i);
-//
-//        }
+
+        int length = str.length();
+
+        for(int i = length -1;i>=0;i--){
+
+            rev = rev + str.charAt(i);
+
+        }
 
 
         // using CharArray

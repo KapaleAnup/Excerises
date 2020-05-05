@@ -36,7 +36,7 @@ public class ArrayListDemo {
 
     /*
     How to initialize an ArrayList
-    Method 1: Initialization using Arrays.asList
+    Method 1: Initialization using ArraysTest.asList
     */
 
 

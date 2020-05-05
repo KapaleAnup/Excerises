@@ -11,26 +11,26 @@ public class SortingElements {
 
         int a[] = {12, 44, 56, 78, 45};
 
-//        System.out.println("Arrays before sort"+ Arrays.toString(a));
+//        System.out.println("ArraysTest before sort"+ ArraysTest.toString(a));
 //
-//        Arrays.parallelSort(a);
+//        ArraysTest.parallelSort(a);
 //
-//        System.out.println("Arrays before sort"+ Arrays.toString(a));
+//        System.out.println("ArraysTest before sort"+ ArraysTest.toString(a));
 
 
         //apporch by using sort menthod
-//        System.out.println("Arrays before sort"+ Arrays.toString(a));
+//        System.out.println("ArraysTest before sort"+ ArraysTest.toString(a));
 //
-//        Arrays.sort(a);
+//        ArraysTest.sort(a);
 //
-//        System.out.println("Arrays before sort"+ Arrays.toString(a));
+//        System.out.println("ArraysTest before sort"+ ArraysTest.toString(a));
 
         // Reverse Desending order
         Integer b[] = {12, 44, 56, 78, 45};
-        System.out.println("Arrays before sort"+ Arrays.toString(b));
+        System.out.println("ArraysTest before sort"+ Arrays.toString(b));
 
         Arrays.sort(b,Collections.reverseOrder());
 
-        System.out.println("Arrays before sort"+ Arrays.toString(b));
+        System.out.println("ArraysTest before sort"+ Arrays.toString(b));
     }
 }

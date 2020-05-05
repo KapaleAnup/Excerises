@@ -6,7 +6,7 @@ public  abstract class Account implements IRate{
 
     //Constuctor to set base properties
     public Account(){
-        System.out.println("New Account nam is: ");
+        System.out.println("New Account name is: ");
     }
     //list of command methods
 }

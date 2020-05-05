@@ -1,0 +1,21 @@
+{
+
+  "firstName" :"John",
+  "lastName" : "kennedy",
+  "address": [
+
+    {
+      "Street":"abc",
+      "city":"Hydrabaad",
+      "State": "TL"
+
+    },
+    {
+      "Street" : "Dummy ",
+      "city" :"Mumbai",
+      "State":"Maharashtra"
+
+    }
+  ]
+
+}

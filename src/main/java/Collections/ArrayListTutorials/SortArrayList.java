@@ -51,12 +51,20 @@ public class SortArrayList {
             System.out.println("List of numbers are :" + listofnumbers);
         }
 
-        Collections.sort(numbers);
+        //sorting in desending order
+
+      // Collections.sort(numbers,Collections.<IntegerExampleTest>reverseOrder());  // use this method for assending order
+     //   Collections.sort(numbers); // use this for sorting the numbers
+        Collections.reverse(numbers); // use reverse() to reverse the listed numbers.
 
         for (Integer sortedNumbers:numbers
              ) {
             System.out.println("Sorted numbers are :" + sortedNumbers);
         }
+
+        //sorting in desending order
+
+
 
 
     }
