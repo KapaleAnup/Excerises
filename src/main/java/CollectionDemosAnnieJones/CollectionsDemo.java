@@ -27,7 +27,6 @@ public class CollectionsDemo {
 //            System.out.println(iterator.next());
 //        }
 
-
 //        for (String item:fruit
 //             ) {
 //            System.out.println(item);
@@ -35,7 +34,7 @@ public class CollectionsDemo {
 
         fruit.forEach(x -> System.out.println(x));
 
-
+        fruit.forEach(e -> System.out.println(e));
 
     }
 
