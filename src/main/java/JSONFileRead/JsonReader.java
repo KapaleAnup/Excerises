@@ -18,7 +18,7 @@ public class JsonReader {
 
 
             try {
-                Object obj = parser.parse(new FileReader("/Users/anupkapale/eclipse-workspace/Excersises/src/main/java/JSONFileRead/Data.json"));
+                Object obj = parser.parse(new FileReader("src/main/java/JSONFileRead/Data.json"));
 
                 JSONObject jsonObject = (JSONObject) obj;
                 String name = (String) jsonObject.get("Name");

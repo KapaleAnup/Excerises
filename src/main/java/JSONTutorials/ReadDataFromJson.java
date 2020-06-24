@@ -20,7 +20,7 @@ public class ReadDataFromJson {
 
         // load file
 
-        FileReader reader = new FileReader("/Users/anupkapale/eclipse-workspace/Excersises/src/main/resources/employee.json");
+        FileReader reader = new FileReader("src/main/resources/employee.json");
 
         //Create object to read the file
        Object obj = jsonParser.parse(reader);
