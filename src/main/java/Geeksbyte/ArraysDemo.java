@@ -12,6 +12,7 @@ public class ArraysDemo {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the no of elements: ");
 
+
        int num = scanner.nextInt();
         System.out.println("Enter elements : ");
         for(int i=0;i<num;i++){
@@ -23,5 +24,7 @@ public class ArraysDemo {
              ) {
             System.out.println(i);
         }
+
+        scanner.close();
     }
 }

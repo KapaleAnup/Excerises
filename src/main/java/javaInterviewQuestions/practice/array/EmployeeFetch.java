@@ -10,7 +10,7 @@ public class EmployeeFetch {
         employees[0]= new Employee("Anup", 1234);
         employees[1] = new Employee("sarika ", 3333);
 
-        employees[2] = new Employee("Test ", 12);
+        employees[2] = new Employee("AssignmentOne ", 12);
 
         employees[3] = new Employee("Dummy ", 23);
 

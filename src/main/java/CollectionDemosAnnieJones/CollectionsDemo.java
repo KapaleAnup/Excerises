@@ -6,7 +6,7 @@ import java.util.*;
 
 public class CollectionsDemo {
 
-   // @Test
+   // @AssignmentOne
     public static void setDemo(){
 
         Set<String> fruit = new HashSet();

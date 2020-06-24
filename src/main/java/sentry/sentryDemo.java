@@ -8,7 +8,7 @@ public class sentryDemo {
         Sentry.init("your dsn");
 
         try {
-            runSomething("Test");
+            runSomething("AssignmentOne");
         } catch (Exception e) {
             Sentry.capture(e);
         }

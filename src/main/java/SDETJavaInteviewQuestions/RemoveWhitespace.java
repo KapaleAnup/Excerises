@@ -6,9 +6,9 @@ public class RemoveWhitespace {
 
         String str = "Java selenium learing    ter    ";
 
-   str = str.replaceAll("\\s","");
+        str = str.replaceAll("\\s","");
 
-       // str = str.trim();
+      // str = str.trim();
 
         System.out.println(str);
     }

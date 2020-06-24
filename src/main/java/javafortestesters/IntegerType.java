@@ -86,7 +86,7 @@ public class IntegerType {
         Assert.assertEquals('c', text.charAt(2));
         Assert.assertEquals("ef", text.substring(4));
         System.out.println(text.equals("abcdef"));
-        System.out.println(text.concat("Test"));
+        System.out.println(text.concat("AssignmentOne"));
     }
 
 

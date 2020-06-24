@@ -22,8 +22,8 @@ public class FileWrite {
 //            bufferedWriter.write("Mobile:1234567890");
 //            bufferedWriter.close();
 
-            for (int i=0;i<4;i++){
-                for (int j=0;j<3;j++){
+            for (int i=0;i<=4;i++){
+                for (int j=0;j<=3;j++){
 
                     int num = (int)(Math.random()*100);
                     bufferedWriter.write(num + ",");

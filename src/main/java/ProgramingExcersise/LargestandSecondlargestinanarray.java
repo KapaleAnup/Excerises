@@ -1,6 +1,6 @@
 package ProgramingExcersise;
 
-public class LargestandSecondlargestinanarray {
+public class  LargestandSecondlargestinanarray {
 
     public static void main(String[] args) {
 

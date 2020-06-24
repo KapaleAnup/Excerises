@@ -24,7 +24,7 @@ public class Sendmail {
             //Log the status in report
             logger.log(LogStatus.INFO, "calc started ");
 
-            logger.log(LogStatus.INFO, "Test", "Test again");
+            logger.log(LogStatus.INFO, "AssignmentOne", "AssignmentOne again");
 
             int a=50,b=80,c;
             c=a+b;
@@ -33,11 +33,11 @@ public class Sendmail {
             //Pass the test in report
 
             if(c==c) {
-                logger.log(LogStatus.PASS, "Test Verified");
+                logger.log(LogStatus.PASS, "AssignmentOne Verified");
                 report.endTest(logger);
 
             }else{
-                logger.log(LogStatus.FAIL, "Test Failed.");
+                logger.log(LogStatus.FAIL, "AssignmentOne Failed.");
                 report.endTest(logger);
             }
             //End the test

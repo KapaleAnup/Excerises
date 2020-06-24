@@ -4,6 +4,7 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 import org.testng.annotations.Test;
+import sun.net.dns.ResolverConfiguration;
 
 import java.io.FileReader;
 import java.io.IOException;
