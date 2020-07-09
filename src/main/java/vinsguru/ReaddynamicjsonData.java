@@ -9,7 +9,7 @@ public class ReaddynamicjsonData {
 
     @Test
         public void temaplate(){
-        JtwigTemplate template = JtwigTemplate.classpathTemplate("/Users/anupkapale/eclipse-workspace/Excersises/src/main/java/vinsguru/contact.json");
+        JtwigTemplate template = JtwigTemplate.classpathTemplate("src/main/java/vinsguru/contact.json");
 
         JtwigModel model = JtwigModel.newModel()
                 .with("name","nameguru")

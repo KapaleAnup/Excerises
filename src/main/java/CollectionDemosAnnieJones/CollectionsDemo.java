@@ -54,15 +54,16 @@ public class CollectionsDemo {
         System.out.println(fruitcalaries);
         System.out.println(fruitcalaries.get("lemon"));
         System.out.println(fruitcalaries.entrySet());
-        System.out.println(fruitcalaries.remove("orange"));
-        System.out.println(fruitcalaries);
+//        System.out.println(fruitcalaries.remove("orange"));
+//        System.out.println(fruitcalaries);
 
 
         for (Map.Entry<String, Integer> entry: fruitcalaries.entrySet()
              ) {
-            System.out.println("values are : "+entry.getValue());
-            System.out.println("keys are : "+entry.getKey());
-            System.out.println("hash codes are : "+entry.hashCode());
+            System.out.print("key = "+entry.getKey()+" ");
+            System.out.print("value = "+entry.getValue()+" ,");
+
+//            System.out.println("hash codes are : "+entry.hashCode());
         }
     }
 

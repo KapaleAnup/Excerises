@@ -8,7 +8,7 @@ public class DulpcateElementsinArray {
 
         //approach: 1
 
-      String arr[] = {"java", "Python", "C++",".Net","SQL", "java","python"};
+      String arr[] = {"java", "Python", "C++",".Net","SQL", "Java","python"};
         boolean flag= false;
         for (int i=0;i<arr.length;i++) {
             for (int j = i + 1; j < arr.length; j++) {
@@ -17,12 +17,11 @@ public class DulpcateElementsinArray {
 
                     flag = true;
                 }
-
-                if (flag = false) {
-
-                    System.out.println("Duplicate element NOT found");
-                }
             }
+        }
+        if (flag = false) {
+
+            System.out.println("Duplicate element NOT found");
         }
 
     }
