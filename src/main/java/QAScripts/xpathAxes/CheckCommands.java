@@ -17,23 +17,23 @@ public class CheckCommands {
         driver.get("http://dbankdemo.com/signup");
 
         //following xpath -->use the above xpath to get it done.
-       // driver.findElement(By.xpath("//input[@id='lastName']//following::input[@type='radio'][1]")).click();
+        driver.findElement(By.xpath("//input[@id='lastName']//following::input[@type='radio'][1]")).click();
 
         //Ancestor  -->
-//        boolean flag = driver.findElement(By.xpath("//input[@id='firstName']//ancestor::div[2]")).isDisplayed();
-//        System.out.println(flag);
+        boolean flag = driver.findElement(By.xpath("//input[@id='firstName']//ancestor::div[2]")).isDisplayed();
+        System.out.println(flag);
 
         //child
-       // driver.findElement(By.xpath("(//div[@class='login-form']//child::input[@type='text'])[1]")).sendKeys("first");
+        driver.findElement(By.xpath("(//div[@class='login-form']//child::input[@type='text'])[1]")).sendKeys("first");
 
         //Pressiding
-       // driver.findElement(By.xpath("//button[@type='submit']//preceding::input[12]")).sendKeys("anup@test.com");
+        driver.findElement(By.xpath("//button[@type='submit']//preceding::input[12]")).sendKeys("anup@test.com");
 
         //following-sibling
-        //driver.findElement(By.xpath("//p[text()='Already have account ? ']//following-sibling::a")).click();
+        driver.findElement(By.xpath("//p[text()='Already have account ? ']//following-sibling::a")).click();
 
         //parent
-     //  driver.findElement(By.xpath("//input[@id='firstName']//parent::div")).isDisplayed();
+       driver.findElement(By.xpath("//input[@id='firstName']//parent::div")).isDisplayed();
 
         //descendant
        driver.findElement(By.xpath(" //*[@class='login-form']//descendant::input[@type='text'][2]")).sendKeys("last");
