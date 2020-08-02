@@ -6,7 +6,7 @@ public class RemoveJunk {
 
         String s = "@#$@$$@ testing java";
 
-      s  =  s.replaceAll("[^a-zA-z0-9]","");
+      s  =  s.replaceAll("[^a-zA-Z0-9]","");
         System.out.println(s);
     }
 }

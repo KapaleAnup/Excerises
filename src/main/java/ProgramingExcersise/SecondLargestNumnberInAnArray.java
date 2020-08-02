@@ -25,6 +25,7 @@ public class SecondLargestNumnberInAnArray {
                 secondLargest = num[i];
             }
         }
+        System.out.println("largest number is "+ largest);
         System.out.println("\nSecond largest number is:" + secondLargest);
     }
 }

@@ -7,7 +7,7 @@ public class ArrayListExamples {
     public static void main(String[] args) {
         ArrayList<String> arrayList = new ArrayList<String>();
         arrayList.add("Anup");
-        arrayList.add("Test");
+        arrayList.add("AssignmentOne");
         arrayList.add("Testewqwe");
 
         System.out.println(arrayList.size());

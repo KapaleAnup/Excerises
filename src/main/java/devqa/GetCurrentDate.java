@@ -1,6 +1,7 @@
 package devqa;
 
 import java.time.LocalDate;
+import java.time.Month;
 import java.time.format.DateTimeFormatter;
 
 
@@ -8,7 +9,9 @@ public class GetCurrentDate {
 
     public static void main(String[] args) {
 
-        LocalDate localDate = LocalDate.now();
+         LocalDate localDate = LocalDate.now();
+         Month year = localDate.getMonth();
+        System.out.println("Year is :" + year );
         System.out.println(localDate);  // print the local date
 
         /*
@@ -29,5 +32,8 @@ public class GetCurrentDate {
 
          System.out.println("Time now: " + localDate.toString());
        //System.out.println("Formatted time: " + localDate.format(DateTimeFormatter.ofPattern("HH:mm:ss")));
+
+
+
     }
 }

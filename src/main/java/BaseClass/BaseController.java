@@ -70,6 +70,7 @@ public class BaseController {
 
     @AfterClass
     public void TearDown() {
+        if(driver !=null)
         driver.close();
         LOG.info("Browser Closed.");
     }

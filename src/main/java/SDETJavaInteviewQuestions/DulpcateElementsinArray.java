@@ -10,19 +10,18 @@ public class DulpcateElementsinArray {
 
       String arr[] = {"java", "Python", "C++",".Net","SQL", "Java","python"};
         boolean flag= false;
-        for (int i=0;i<arr.length;i++){
-            for (int j=i+1; j<arr.length;j++){
-                if (arr[i]== arr[j]){
+        for (int i=0;i<arr.length;i++) {
+            for (int j = i + 1; j < arr.length; j++) {
+                if (arr[i] == arr[j]) {
                     System.out.println("Duplicate element found : " + arr[i]);
 
-                    flag= true;
+                    flag = true;
                 }
             }
+        }
+        if (flag = false) {
 
-            if(flag=false){
-
-                System.out.println("Duplicate element NOT found");
-            }
+            System.out.println("Duplicate element NOT found");
         }
 
     }
